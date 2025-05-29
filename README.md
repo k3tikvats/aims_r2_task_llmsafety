@@ -10,7 +10,7 @@ This project explores how Large Language Models can be prompted to generate unsa
 2. **Safety Classification**: Train a classifier to detect unsafe outputs
 3. **Mitigation**: Implement and evaluate various safety mitigation techniques
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 aims_r2_task_llmsafety/
@@ -223,18 +223,6 @@ result = sampler.rejection_sample("Potentially harmful prompt")
 safe_response = result['selected_response']
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Areas for improvement:
-
-- Additional adversarial prompt categories
-- New mitigation techniques
-- Enhanced evaluation metrics
-- Integration with other LLM frameworks
-
-## 📄 License
-
-This project is intended for research and educational purposes. Please ensure compliance with your institution's ethics guidelines when conducting AI safety research.
 
 ## 🙏 Acknowledgments
 
@@ -242,10 +230,3 @@ This project is intended for research and educational purposes. Please ensure co
 - OpenAI's work on AI safety
 - Research community contributions to responsible AI
 
-## 📞 Contact
-
-For questions about this implementation or research collaboration opportunities, please open an issue in the repository.
-
----
-
-**Disclaimer**: This project is for research purposes only. The adversarial prompts and techniques described should not be used to actually generate harmful content or bypass AI safety measures in production systems.
