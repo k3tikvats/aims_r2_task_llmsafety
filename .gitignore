@@ -1,7 +1,7 @@
 
 src/mitigation/__pycache__/*
 
-src/red_teaming.py/__pycache__/*
+src/red_teaming/__pycache__/*
 
 src/safety_filter_classifier/__pycache__/*
 
